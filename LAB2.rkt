@@ -22,6 +22,7 @@
    )
   )
 )
-(define (funct n) (
-   (list 'Otvet: (lab2fun n) 'Rec:))
+(define (funct n)
+   (define d (lab2fun n))
+   (list 'Otvet: d 'Rec: d)
 )
